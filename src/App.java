@@ -31,7 +31,7 @@ public class App {
         System.out.print("Enter number of installment: ");
         int numberMonths = sc.nextInt();
         
-        new ContractService(new PaypalService()).processContract(contract, numberMonths);;
+        new ContractService(new PaypalService()).processContract(contract, numberMonths);
         
 
         System.out.println("Installments: ");
